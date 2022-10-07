@@ -1,0 +1,43 @@
+`timescale 1ns/1ps
+
+module sim_top();
+
+reg clk;
+reg rst_n;
+
+wire [23:0] ldata;
+wire [23:0] rdata;
+
+wire mic_sck;
+wire mic_ws;
+reg mic_sd;
+
+initial begin
+  clk = 1'b0;
+  rst_n = 1'b0;
+  mic_sd = 1'b0;
+  #2;
+  rst_n = 1'b1;
+end
+
+initial forever begin
+  clk = ~clk;
+  #1;
+end
+
+initial forever begin
+  mic_sd = ~mic_sd;
+  #400;
+end
+
+i2s_top i2s(
+  .clk(clk),
+  .rst_n(rst_n),
+  .ldata(ldata),
+  .rdata(rdata),
+  .mic_sck(mic_sck),
+  .mic_ws(mic_ws),
+  .mic_sd(mic_sd)
+);
+
+endmodule

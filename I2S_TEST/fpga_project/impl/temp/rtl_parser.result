@@ -1,0 +1,36 @@
+[
+ {
+  "InstFile" : "C:/Users/ZhouLin/Desktop/I2S_TSET/fpga_project/src/top.v",
+  "InstLine" : 1,
+  "InstName" : "top",
+  "ModuleFile" : "C:/Users/ZhouLin/Desktop/I2S_TSET/fpga_project/src/top.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "top",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Users/ZhouLin/Desktop/I2S_TSET/fpga_project/src/top.v",
+    "InstLine" : 17,
+    "InstName" : "dac_pll_u",
+    "ModuleFile" : "C:/Users/ZhouLin/Desktop/I2S_TSET/fpga_project/src/gowin_rpll/dac_pll.v",
+    "ModuleLine" : 9,
+    "ModuleName" : "dac_pll"
+   },
+   {
+    "InstFile" : "C:/Users/ZhouLin/Desktop/I2S_TSET/fpga_project/src/top.v",
+    "InstLine" : 24,
+    "InstName" : "i2s_u",
+    "ModuleFile" : "C:/Users/ZhouLin/Desktop/I2S_TSET/fpga_project/src/i2s_top.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "i2s_top"
+   },
+   {
+    "InstFile" : "C:/Users/ZhouLin/Desktop/I2S_TSET/fpga_project/src/top.v",
+    "InstLine" : 36,
+    "InstName" : "dac_u",
+    "ModuleFile" : "C:/Users/ZhouLin/Desktop/I2S_TSET/fpga_project/src/dac_out.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "dac_out"
+   }
+  ]
+ }
+]

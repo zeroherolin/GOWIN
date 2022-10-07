@@ -1,0 +1,10 @@
+-d C:\Users\ZhouLin\Desktop\I2S_TSET\fpga_project\impl\gwsynthesis\fpga_project.vg
+-p GW2A-18C-PBGA256-8
+-pn GW2A-LV18PG256C8/I7
+-cst C:\Users\ZhouLin\Desktop\I2S_TSET\fpga_project\src\fpga_project.cst
+-cfg C:\Users\ZhouLin\Desktop\I2S_TSET\fpga_project\impl\pnr\device.cfg
+-bit
+-tr
+-ph
+-timing
+-cst_error

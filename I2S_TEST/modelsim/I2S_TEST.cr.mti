@@ -1,0 +1,8 @@
+C:/Users/ZhouLin/Desktop/I2S_TSET/modelsim/sim_top.v {1 {vlog -work work -vopt C:/Users/ZhouLin/Desktop/I2S_TSET/modelsim/sim_top.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module sim_top
+
+Top level modules:
+	sim_top
+
+} {} {}}
